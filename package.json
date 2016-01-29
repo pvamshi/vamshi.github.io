@@ -1,0 +1,24 @@
+{
+  "name": "pvamshi.github.io",
+  "version": "1.0.0",
+  "description": "blog generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvamshi/pvamshi.github.io.git"
+  },
+  "author": "Vamshi Krishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvamshi/pvamshi.github.io/issues"
+  },
+  "homepage": "https://github.com/pvamshi/pvamshi.github.io#readme",
+  "dependencies": {
+    "markdown-styles": "^3.1.4",
+    "watchr": "^2.4.13"
+  }
+}
