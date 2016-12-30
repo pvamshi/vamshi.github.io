@@ -1,0 +1,28 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
+    link(rel="stylesheet" href="/css/materialize.css")
+    link(rel="stylesheet" href="/css/style.css")
+    link(rel="stylesheet" href="/prism.css")
+    script(src="/prism.js" type="text/javascript")
+  body.blue
+    .blue
+      nav(role="navigation")
+        .nav-wrapper.blue.lighten-1
+          .container
+            a#logo-container.brand-logo(href="#") Vamshi Krishna Pothuka
+      ul.side-nav
+        li
+          .userView
+            .background
+              img.circle.responsive-img.col.s2(src="/1425006.jpg")
+      .section.no-pad-bot
+        .container.blue-text.text-lighten-4
+          != yield
+      //footer.page-footer.cyan.lighten-5
+        .container
+          .row
+            .col.l6.s12
+              h5.cyan-text Footer Content
+
