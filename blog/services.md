@@ -1,18 +1,3 @@
-* [Summary](#summary)
-* [Introduction](#introduction)
-* [General Idea](#general-idea)
-  * [Service as Data containers](#service-as-data-containers)
-  * [Immutable Data](#immutable-data)
-  * [Solutions](#solutions)
-* [Advantages](#advantages)
-* [Solution 1: Observer Pattern](#solution-1-observer-pattern)
-  * [Advantages](#advantages-solution-1-)
-  * [problems](#problems-solution-1-)
-* [Solution 2: Data centric services](#solution-2-data-centric-services)
-  * [Advantages](#advantages-solution-2-)
-  * [problems](#problems-solution-2-)
-* [Conclusion](#conclusion-)
-* * *
 
 ### Summary
 This article is an arguement on merits and demerits of using service as the data  container and letting controller call service for all its data needs. It tries to decrease the amount of code written in controllers and shift that to services. We store data in service in two ways :
