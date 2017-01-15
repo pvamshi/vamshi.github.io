@@ -9,23 +9,26 @@ html
     script(src="/js/prism.js" type="text/javascript")
     script(src="/js/materialize.min.js" type="text/javascript")
     script(src="/js/main.js" type="text/javascript")
-  body.main-color
-    .main-color
-      nav(role="navigation")
-        .nav-wrapper.main-color.lighten-1
-          .container
-            a#logo-container.brand-logo(href="#") Vamshi Krishna Pothuka
-      ul.side-nav
-        li
-          .userView
-            .background
-              img.circle.responsive-img.col.s2(src="/1425006.jpg")
-      .section.no-pad-bot
-        .container.main-color-text.text-lighten-4
-          != yield
-      //footer.page-footer.cyan.lighten-5
+  body.main-color.lighten-5
+    nav(role="navigation")
+      .nav-wrapper.main-color.lighten-1
         .container
-          .row
-            .col.l6.s12
-              h5.cyan-text Footer Content
+          a#logo-container.brand-logo(href="#") Vamshi Krishna Pothuka
+    ul.side-nav
+      li
+        .userView
+          .background
+            img.circle.responsive-img.col.s2(src="/1425006.jpg")
+    .section.back.main-color
+    .section.blog
+      .container
+        .card
+          .card-content.flow-text
+            h2 #{title}
+            != yield
+    //footer.page-footer.cyan.lighten-5
+      .container
+        .row
+          .col.l6.s12
+            h5.cyan-text Footer Content
 

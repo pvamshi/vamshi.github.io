@@ -1,8 +1,10 @@
 .row
-  .col.s12.m7
-    .card
-      .card-content
-        p
-        | This is my home page !! 
-        p
-        | Refresh if you did not like the color
+  .col.s12.m12
+    for article, slug in public.blog._data
+      unless slug == "index"
+        .card
+          .card-content
+            .card-title
+              a(href="/blog/#{ slug }")
+                h4= article.title
+            p= article.description

@@ -12,3 +12,25 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.blog{
+  position:absolute;
+  top: 10vh;
+  width: 100%;
+}
+
+.blog  .card-content{
+  padding: 2.5em;
+}
+
+.blog > h3 , .blog > h4{
+  padding-top: 20px;
+}
+
+.back{
+  height:45vh;
+}
+html, 
+body {
+    height: 100%;
+}
