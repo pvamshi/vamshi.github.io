@@ -27,6 +27,11 @@
   padding-top: 20px;
 }
 
+
+.posted{
+  font-weight: bold;
+}
+
 .back{
   height:45vh;
 }
@@ -34,3 +39,4 @@ html,
 body {
     height: 100%;
 }
+

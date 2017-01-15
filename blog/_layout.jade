@@ -22,8 +22,15 @@ html
     .section.back.main-color
     .section.blog
       .container
+        nav.z-depth-0.main-color
+          .nav-wrapper
+            .col.s12
+              a.breadcrumb(href="/") home
+              a.breadcrumb(href="/blog") blog
+              a.breadcrumb(href="#!") #{title}
         .card
           .card-content.flow-text
+            span.posted.grey-text #{date}
             h2 #{title}
             != yield
     //footer.page-footer.cyan.lighten-5
