@@ -1,0 +1,13 @@
+{
+  "index": {
+    "title": "Hello World.",
+    "date": "2013-02-28",
+    "layout":"_index_layout"
+  },
+  "node-build": {
+    "title": "Node Build",
+    "date": "2016-01-28",
+    "description": "some ramdon text explaining .. sdfasd fasd sadf asdfa sdfas dfasdf asdfasdf asdfas dfasdf asdf asd fasdf asd"
+  }
+}
+
