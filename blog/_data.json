@@ -6,8 +6,22 @@
   },
   "node-build": {
     "title": "Node Build",
-    "date": "2016-01-28",
-    "description": "some ramdon text explaining .. sdfasd fasd sadf asdfa sdfas dfasdf asdfasdf asdfas dfasdf asdf asd fasdf asd"
+    "date": "28 January 2016",
+    "description": "The de facto way of watching and building a UI project is by using either of grunt, gulp or rarely npm. In this blog we will see how it can be done using node alone. "
+  },
+  "services":{
+    "date": "05 June 2016",
+    "title": "Service centric architecture in AngularJS",
+    "description" : "This article is an arguement on merits and demerits of using service as the data  container and letting controller call service for all its data needs."
+  },
+  "test-private": {
+    "title": "Testing private functions in Angular",
+    "date" : "05 June 2016",
+    "description": "This blog describes how to test private functions in angularjs"
+  },
+    "ui-code-quality": {
+    "title": "Improving UI Code Quality in Micro services",
+    "date" : "12 December 2016",
+    "description": "Different ways to improve the UI code quality in Micro services architecture"
   }
 }
-
