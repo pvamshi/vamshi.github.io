@@ -4,6 +4,18 @@
     "date": "2013-02-28",
     "layout":"_index_layout"
   },
+  "materialize-vs-angular-material2":{
+    "title": "Materialize vs Angular Material 2",
+    "date": "26 January 2017",
+    "description": "Qunatitative comparison between two Google Material frameworks. One pure CSS framework and other angular 2 based ."
+
+  },
+  "materialize-vs-angular-material":{
+    "title": "Materialize vs Angular Material 2",
+    "date": "26 January 2017",
+    "description": "Qunatitative comparison between two Google Material frameworks. One pure CSS framework and other angular 2 based ."
+
+  },
   "node-build": {
     "title": "Node Build",
     "date": "28 January 2016",
@@ -19,7 +31,7 @@
     "date" : "05 June 2016",
     "description": "This blog describes how to test private functions in angularjs"
   },
-    "ui-code-quality": {
+  "ui-code-quality": {
     "title": "Improving UI Code Quality in Micro services",
     "date" : "12 December 2016",
     "description": "Different ways to improve the UI code quality in Micro services architecture"
