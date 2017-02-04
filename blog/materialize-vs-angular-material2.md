@@ -93,3 +93,4 @@ Collapsible | Yes | No |
 Dialogs| Yes | Yes | 
 Parallax | Yes | No | 
 
+More components to be added to the list ... 
