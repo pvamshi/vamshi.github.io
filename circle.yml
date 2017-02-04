@@ -9,13 +9,13 @@ machine:
   node:
     version: 6.9.1
 dependencies:
-  override: 
+  pre: 
     - npm install -g harp
   cache_directories:
     - /opt/circleci/nodejs/v6.9.1/lib/node_modules
     - /opt/circleci/nodejs/v6.9.1/bin
-checkout:
-  post:
+compile:
+  pre:
     - harp compile
 #    - git checkout gh-pages
 #    - cd ..
@@ -24,7 +24,7 @@ checkout:
 
 test:
   override:
-    - exit 0
+    - cd www && git status 
 
 deployment:
   production:
