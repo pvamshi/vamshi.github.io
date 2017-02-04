@@ -9,6 +9,8 @@ machine:
   node:
     version: 6.9.1
 dependencies:
+  overrides: 
+    - npm install -g harp
   cache_directories:
     - /opt/circleci/nodejs/v6.9.1/lib/node_modules
     - /opt/circleci/nodejs/v6.9.1/bin
