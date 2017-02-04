@@ -79,8 +79,8 @@ Badges| Yes | No |
 Breadcrumbs|Yes | No | 
 Cards|Yes | Yes |
 Chips|Yes | No | 
-Collections|Yes | Yes
-Footer|Yes | No 
+Collections|Yes | Yes|
+Footer|Yes | No |
 Forms|Yes | Partial |
 Icons|Yes | Yes |
 Navbar|Yes | No | 
