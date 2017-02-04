@@ -1,7 +1,7 @@
-#general:
-#  branches:
-#    ignore:
-#      - gh-pages
+general:
+  branches:
+    ignore:
+      - gh-pages
 
 machine:
   timezone:
@@ -30,7 +30,4 @@ deployment:
   production:
     branch: master
     commands:
-      - harp compile
-      - cd www
-      - git checkout gh-pages
-      - git push origin gh-pages
+      - sh build.sh
