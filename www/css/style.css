@@ -1,0 +1,55 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.blog{
+  position:absolute;
+  top: 10vh;
+  width: 100%;
+}
+
+.blog  .card-content{
+  padding: 2.5em;
+}
+
+.blog > h3 {
+  padding-top: 20px;
+}
+.blog h4 {
+  font-size: 2rem;
+}
+.blog  p{
+  padding-top: 1em !important;
+}
+
+.blog ul{
+  padding-left: 1.5rem !important;
+  list-style-type: disc !important;
+}
+.blog li{
+  list-style-type: disc !important;
+}
+
+.posted{
+  font-weight: bold;
+}
+
+.back{
+  height:45vh;
+}
+html, 
+body {
+    height: 100%;
+}
+
