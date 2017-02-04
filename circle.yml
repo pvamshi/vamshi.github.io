@@ -27,6 +27,7 @@ checkout:
     - git submodule init
     - git submodule update
     - cd www && git checkout gh-pages
+    - cd www && git pull
     
 test:
   post:
