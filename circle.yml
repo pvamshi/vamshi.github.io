@@ -25,6 +25,10 @@ compile:
 test:
   override:
     - cd www && git status 
+  post:
+    - git submodule init
+    - git submodule update
+    - harp compile
 
 deployment:
   production:
@@ -33,7 +37,9 @@ deployment:
       - git config --global -l #<= totally unnecessary, but "fixes" problem?
       - git config --global user.email circleci@circleci
       - git config --global user.name CircleCI
-      - cd www && git checkout gh-pages && git commit -m "build" -a && git push origin gh-pages
+      - cd www && git checkout gh-pages
+      - cd www && git commit -m "build" -a 
+      - cd www && git push origin gh-pages
 
       
       
