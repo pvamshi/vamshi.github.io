@@ -21,13 +21,13 @@ dependencies:
 #    - cd ..
     
 #    - ./scripts/build.sh
-
-test:
-  override:
-    - cd www && git status 
+checkout:
   post:
     - git submodule init
     - git submodule update
+    
+test:
+  post:
     - harp compile
 
 deployment:
