@@ -1,5 +1,5 @@
 
-> Disclaimer : I am more biased towards Materialize. Love to be corrected. 
+> Disclaimer : I am biased towards Materialize. Love to be corrected. 
 
 #### Project status 
 Materialize development is almost complete while angular development just started . We can see the stats from the github pages. 

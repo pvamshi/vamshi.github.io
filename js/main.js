@@ -3,4 +3,6 @@ $(document).ready(function(){
     var color = colors[Math.floor(Math.random()*colors.length )];
     $('.main-color').addClass(color);
     $('.main-color-text').addClass(color+'-text');
+    $('table').addClass('striped');
 });
+
