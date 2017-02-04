@@ -2,7 +2,7 @@
 > Disclaimer : I am biased towards Materialize. Love to be corrected. 
 
 #### Project status 
-Materialize development is almost complete while angular development just started . We can see the stats from the github pages. 
+Materialize development is almost complete while angular material development just started . We can see the stats from the github pages. 
 
 ![Materialize Github](../assets/materialize.png) 
 ![Angular Material Github](../assets/angular_material.png) 
