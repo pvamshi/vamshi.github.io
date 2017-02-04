@@ -23,6 +23,7 @@ dependencies:
 #    - ./scripts/build.sh
 checkout:
   post:
+    - git pull
     - git submodule init
     - git submodule update
     - cd www && git checkout gh-pages
