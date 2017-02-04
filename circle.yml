@@ -1,0 +1,34 @@
+#general:
+#  branches:
+#    ignore:
+#      - gh-pages
+
+machine:
+  timezone:
+    Asia/Calcutta
+  node:
+    version: 6.9.1
+dependencies:
+  cache_directories:
+    - /opt/circleci/nodejs/v6.9.1/lib/node_modules
+    - /opt/circleci/nodejs/v6.9.1/bin
+#checkout:
+#  post:
+#    - cd www
+#    - git checkout gh-pages
+#    - cd ..
+    
+#    - ./scripts/build.sh
+
+test:
+  override:
+    - exit 0
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - harp compile
+      - cd www
+      - git checkout gh-pages
+      - git push origin gh-pages
