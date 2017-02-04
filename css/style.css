@@ -23,10 +23,23 @@
   padding: 2.5em;
 }
 
-.blog > h3 , .blog > h4{
+.blog > h3 {
   padding-top: 20px;
 }
+.blog h4 {
+  font-size: 2rem;
+}
+.blog  p{
+  padding-top: 1em !important;
+}
 
+.blog ul{
+  padding-left: 1.5rem !important;
+  list-style-type: disc !important;
+}
+.blog li{
+  list-style-type: disc !important;
+}
 
 .posted{
   font-weight: bold;
