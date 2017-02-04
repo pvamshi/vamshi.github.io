@@ -39,7 +39,7 @@ deployment:
       - git config --global user.email circleci@circleci
       - git config --global user.name CircleCI
       - cd www && git checkout gh-pages
-      - cd www && git commit -m "build" -a 
+      - cd www && git commit -m "Automated Build (`date '+%F %T %Z'`) [ci skip]" -a || true
       - cd www && git push origin gh-pages
 
       
