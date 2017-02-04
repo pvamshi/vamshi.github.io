@@ -31,6 +31,7 @@ checkout:
     
 test:
   post:
+    - cd www && rm -rf *
     - harp compile
 
 deployment:
