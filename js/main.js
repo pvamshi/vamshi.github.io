@@ -4,5 +4,6 @@ $(document).ready(function(){
     $('.main-color').addClass(color);
     $('.main-color-text').addClass(color+'-text');
     $('table').addClass('striped');
+    $('img').addClass('responsive-img');
 });
 
