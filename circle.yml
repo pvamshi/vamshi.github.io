@@ -1,0 +1,51 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+machine:
+  timezone:
+    Asia/Calcutta
+  node:
+    version: 6.9.1
+dependencies:
+  pre: 
+    - npm install -g harp
+  cache_directories:
+    - /opt/circleci/nodejs/v6.9.1/lib/node_modules
+    - /opt/circleci/nodejs/v6.9.1/bin
+#compile:
+#  pre:
+#    - harp compile
+#    - git checkout gh-pages
+#    - cd ..
+    
+#    - ./scripts/build.sh
+checkout:
+  post:
+    - git pull
+    - git submodule init
+    - git submodule update
+    - cd www && git checkout gh-pages
+    - cd www && git pull
+    
+test:
+  post:
+    - cd www && rm -rf *
+    - harp compile
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - git config --global -l #<= totally unnecessary, but "fixes" problem?
+      - git config --global user.email circleci@circleci
+      - git config --global user.name CircleCI
+      - cd www && git checkout gh-pages
+      - cd www && git add .
+      - cd www && git commit -m "Automated Build (`date '+%F %T %Z'`) [ci skip]" || true
+      - cd www && git push origin gh-pages
+
+      
+      
+      
