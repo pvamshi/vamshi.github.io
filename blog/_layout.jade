@@ -40,6 +40,10 @@ html
           //removed .flow-text
           .card-content.flow-text
             span.posted.grey-text #{date}
+            //.fb-like(
+                data-share="true"
+                data-width="450"
+                data-show-faces="true")
             h2 #{title}
             != yield
           .fb-comments.grey.lighten-4.flow-text(data-href="http://vamshi.me/blog/#{url}" data-numposts="5" )

@@ -94,3 +94,4 @@ Dialogs| Yes | Yes |
 Parallax | Yes | No | 
 
 More components to be added to the list . But for now , Angular Material is clearly lagging behind.
+
