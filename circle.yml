@@ -33,6 +33,7 @@ test:
   post:
     - cd www && rm -rf *
     - harp compile _harp www
+    - gitbook build js www/book/js
 
 deployment:
   production:
