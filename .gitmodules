@@ -3,6 +3,6 @@
 	url = https://github.com/pvamshi/vamshi.github.io
 	ignore = all
 [submodule "js"]
-	path = js
+	path = www/book/js
 	url = https://github.com/pvamshi/js-book
 	ignore = all
