@@ -1,0 +1,15 @@
+machine:
+  timezone:
+    Asia/Calcutta
+
+test:
+  override:
+    - exit 0
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - curl -v -X POST https://circleci.com/api/v1/project/pvamshi/vamshi.github.io/tree/master?circle-token=a1bdd9371782538e32838a97feacf433369d0833
+      
+      
