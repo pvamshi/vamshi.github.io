@@ -32,7 +32,7 @@ checkout:
 test:
   post:
     - cd www && rm -rf *
-    - harp compile
+    - harp compile _harp www
 
 deployment:
   production:

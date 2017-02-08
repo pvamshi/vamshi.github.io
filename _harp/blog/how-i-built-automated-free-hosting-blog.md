@@ -28,7 +28,7 @@ In other words why not use awesome blog sites like medium or wordpress?
 
 I was very much in favor of [Medium](http://medium.com) until I realized they don't have code highlighting and I need to rely on [gists](http://gist.github.com) to create the code snippets. I think its a really cumbersome job to keep updating code at gists compared to markdown style in-text editing using backticks. More over it was one of my goals to use markdown ( so that I can use vim, somehow everything boils down to vim).
 
-Using markdown , I can write the code using \`\`\` followed by the language. Using vim, I can even get syntax highlighting. Check the screenshot below: 
+Using markdown , I can write the code using `  followed by the language (like `` ```js``). Using vim, I can even get syntax highlighting. Check the screenshot below: 
 
 ![Screenshot](../assets/how-i-built-automated-free-hosting-blog/screenshot.png)
 
@@ -42,3 +42,4 @@ Using markdown , I can write the code using \`\`\` followed by the language. Usi
 Detailed explanation can be found at [https://pages.github.com/](https://pages.github.com/). 
 
  ( to be continued ..)
+
