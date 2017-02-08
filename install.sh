@@ -1,7 +1,7 @@
-#if ! type "gitbook" > /dev/null; then
+if ! type "gitbook" > /dev/null; then
   npm uninstall gitbook -g
   npm install gitbook-cli -g
-#fi
+fi
 if ! type "harp" > /dev/null; then
   npm install harp -g
 fi
