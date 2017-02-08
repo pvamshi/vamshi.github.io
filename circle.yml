@@ -28,14 +28,13 @@ checkout:
     - git submodule update
     - cd www && git checkout gh-pages
     - cd www && git pull origin gh-pages
-    - cd js && git pull origin master
     
 test:
   post:
     - cd www && rm -rf *
     - harp compile _harp www
-    - cd js && gitbook install
-    - gitbook build js www/book/js
+    # - cd js && gitbook install
+    # - gitbook build js www/book/js
 
 deployment:
   production:
