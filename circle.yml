@@ -10,7 +10,7 @@ machine:
     version: 6.9.1
 dependencies:
   pre: 
-    - npm install -g harp
+    - sh install.sh
   cache_directories:
     - /opt/circleci/nodejs/v6.9.1/lib/node_modules
     - /opt/circleci/nodejs/v6.9.1/bin
