@@ -5,3 +5,4 @@
 [submodule "js"]
 	path = js
 	url = https://github.com/pvamshi/js-book
+	ignore = all

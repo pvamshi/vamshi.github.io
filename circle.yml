@@ -27,7 +27,8 @@ checkout:
     - git submodule init
     - git submodule update
     - cd www && git checkout gh-pages
-    - cd www && git pull
+    - cd www && git pull origin gh-pages
+    - cd js && git pull origin master
     
 test:
   post:
