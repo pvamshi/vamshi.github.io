@@ -34,6 +34,7 @@ test:
   post:
     - cd www && rm -rf *
     - harp compile _harp www
+    - cd js && gitbook install
     - gitbook build js www/book/js
 
 deployment:
