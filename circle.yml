@@ -28,6 +28,7 @@ checkout:
     - git submodule update
     - cd www && git checkout gh-pages
     - cd www && git pull origin gh-pages
+    - cd _harp/book/js && git pull origin master
     
 test:
   post:

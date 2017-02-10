@@ -2,6 +2,7 @@
 	path = www
 	url = https://github.com/pvamshi/vamshi.github.io
 	ignore = all
-[submodule "_harp/book/js2"]
-	path = _harp/book/js2
+[submodule "_harp/book/js"]
+	path = _harp/book/js
 	url = https://github.com/pvamshi/js-book
+	ignore = all
