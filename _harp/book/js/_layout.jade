@@ -30,20 +30,17 @@ html
           a.button-collapse(href="#" data-activates="slide-out2")
             i.material-icons menu
 
-          ul#slide-out2.side-nav.fixed
+          #side-out2.side-nav.fixed
+          ul.side-nav.fixed
             li
               a(href="/book/js/") What is this book
-            li.no-padding
-              ul.collapsible.collapsible-accordion
+            li
+              a(href="/book/js/introduction") Introduction
+              ul
                 li
-                  a.collapsible-header
-                    | Introduction
-                    i.material-icons arrow_drop_down
-                  .collapsible-body
-                    ul
-                      li
-                        a(href="/book/js/introduction") Introduction
-                        a(href="/book/js/introduction/hello-world") Hello World
+                  a(href="/book/js/introduction/hello-world") Hello World
+                li
+                  a(href="/book/js/introduction/variable") Variable
           a#logo-container.brand-logo(href="/") Javascript for Developers
           ul.right.hide-on-med-and-down
             li
