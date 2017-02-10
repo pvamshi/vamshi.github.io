@@ -1,5 +1,3 @@
-### Introduction
-
 #### Javascript Version
 We will start learning ES2015 . Make sure you have compatible browsers. Safe bet is to use either Chrome or Firefox. 
 

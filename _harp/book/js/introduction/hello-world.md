@@ -1,5 +1,3 @@
-### Hello World!!
-
 Lets run something to get the feel first.
 
 #### How to run Javascript
